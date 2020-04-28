@@ -18,7 +18,7 @@ public class DriverScript {
 	{
 		try
 		{
-			File src = new File("./actiConfifiguration/config.Properties");
+			File src = new File("./actiConfiguration/confiq.properties");
 		FileInputStream fis = new FileInputStream(src);
 		prop = new Properties();
 		prop.load(fis);		
